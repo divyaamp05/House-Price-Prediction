@@ -28,19 +28,19 @@ The first step in EDA is to analyze the missing values in the dataset. Understan
 ### Numerical Variables
 Numerical variables are analyzed by dividing them into temporal variables, discrete variables, and continuous variables.
 
-#### Temporal Variables
+#### a.Temporal Variables
 Temporal variables are features that represent time or date-related information.
 
 1. *Identify Temporal Variables*: Determine which features are temporal.
 2. *Visualize Temporal Variables*: Plot graphs between temporal variables and the output variable to understand their relationship.
 
-#### Discrete Variables
+#### b.Discrete Variables
 Discrete variables are numerical variables that take on a limited number of distinct values.
 
 1. *Identify Discrete Variables*: Determine which features are discrete.
 2. *Visualize Discrete Variables*: Plot graphs between discrete variables and the output variable to understand their relationship.
 
-#### Continuous Variables
+#### c.Continuous Variables
 Continuous variables are numerical variables that can take on any value within a range. Proper handling and transformation of these variables are crucial for building an effective predictive model. Below are the steps taken to manage continuous variables in this project:
 
 1. *Identify Continuous Variables*: Determine which features in the dataset are continuous. These variables are typically numerical and can have a wide range of values.
@@ -60,16 +60,16 @@ Categorical variables are non-numerical features that represent categories or gr
 ## Feature Engineering
 Feature engineering involves transforming raw data into meaningful features that improve the performance of machine learning models.
 
-### Handling Categorical Variables
+### 1.*Handling Categorical Variables*
 Categorical variables are first handled for missing values by converting them into non-missing values. Then, label encoding is performed to convert categorical variables into numerical form.
 
-### Handling Numerical Variables
+### 2.*Handling Numerical Variables*
 Numerical variables are handled for missing values by filling them with zero.
 
-## Feature Scaling
+### 3.*Feature Scaling*
 Feature scaling is performed to normalize the range of independent variables or features of the data. Min-Max scaling is applied using MinMaxScaler() to scale the features and transform them into a data frame.
 
-## Feature Selection
+### 4.*Feature Selection*
 Feature selection is performed using LASSO regression model to select the most important features. Out of 81 features, only 74 are selected based on the model.
 
 ## Model Training
