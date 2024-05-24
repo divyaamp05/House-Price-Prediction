@@ -17,7 +17,7 @@ The dataset used in this project includes various features such as:
 The main code for the House Price Prediction is implemented in House Price Prediction.ipynb. 
 This Jupyter Notebook contains the following sections:
 
-## A.Exploratory Data Analysis
+## A. Exploratory Data Analysis
 
 Exploratory Data Analysis (EDA) is a crucial step in understanding the data and preparing it for modeling. The EDA for this project is divided into several steps:
 
@@ -59,7 +59,7 @@ Categorical variables are non-numerical features that represent categories or gr
 1. *Identify Categorical Variables*: Determine which features are categorical.
 2. *Visualize Categorical Variables*: Plot graphs between categorical variables and the output variable to understand their relationship.
 
-## B.Feature Engineering
+## B. Feature Engineering
 
 Feature engineering involves transforming raw data into meaningful features that improve the performance of machine learning models.
 
@@ -75,20 +75,20 @@ Feature scaling is performed to normalize the range of independent variables or 
 ### 4.*Feature Selection*
 Feature selection is performed using LASSO regression model to select the most important features. Out of 81 features, only 74 are selected based on the model.
 
-## C.Model Training
+## C. Model Training
 
 We trained a linear regression model on the processed dataset. The steps involved:
 1. Splitting the data into training and testing sets.
 2. Training the model on the training set.
 3. Evaluating the model on the testing set.
 
-## D.Performance Metrics
+## D. Performance Metrics
 
 We used the following performance metrics to evaluate the model:
 - **R-squared (R²)**: Measures the proportion of variance in the dependent variable that is predictable from the independent variables.
 - **Adjusted R-squared**: Adjusts the R-squared value based on the number of predictors in the model.
 
-## E.Results
+## E. Results
 
 The model achieved the following performance metrics:
 - **R-squared**: 0.73
