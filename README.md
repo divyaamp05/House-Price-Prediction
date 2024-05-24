@@ -1,10 +1,9 @@
 # House-Price-Prediction
 
-
-## Project Overview
 This repository contains Project on predicting house prices using advanced data analysis and machine learning techniques. The primary goal is to build a model that can accurately estimate the price of a house based on various features such as location, size, number of bedrooms, and more.
 
 ## Dataset
+
 The dataset used in this project includes various features such as:
 - Location
 - Area
@@ -13,22 +12,28 @@ The dataset used in this project includes various features such as:
 - Age of the house
 - Other relevant features
 
+## Code
+
 The main code for the House Price Prediction is implemented in House Price Prediction.ipynb. 
 This Jupyter Notebook contains the following sections:
 
 ## Exploratory Data Analysis
+
 Exploratory Data Analysis (EDA) is a crucial step in understanding the data and preparing it for modeling. The EDA for this project is divided into several steps:
 
 ### Missing Values Analysis
+
 The first step in EDA is to analyze the missing values in the dataset. Understanding which features have missing values and how many of them are missing helps in deciding the imputation strategy.
 
 1. *Identify Missing Values*: Check for missing values in the dataset.
 2. *Visualize Missing Values*: Draw a graph to visualize the missing values and their impact on the output variable (house price).
 
 ### Numerical Variables
+
 Numerical variables are analyzed by dividing them into temporal variables, discrete variables, and continuous variables.
 
 #### a.Temporal Variables
+
 Temporal variables are features that represent time or date-related information.
 
 1. *Identify Temporal Variables*: Determine which features are temporal.
