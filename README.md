@@ -1,7 +1,5 @@
 # House-Price-Prediction
 
-# House Price Prediction
-
 ## Project Overview
 This repository contains Project on predicting house prices using advanced data analysis and machine learning techniques. The primary goal is to build a model that can accurately estimate the price of a house based on various features such as location, size, number of bedrooms, and more.
 
